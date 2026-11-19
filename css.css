@@ -1,0 +1,78 @@
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all-section{
+    margin-top: 200px;
+    
+}
+    .our-products{
+        padding: 0px 102px ;
+        gap: 12px;
+        margin: 12px;
+        display: flex;
+        justify-content: center;
+    }
+    .card{
+        display: inline-block;
+        margin-right: 12px;
+        width: 300px;
+        border: solid 1px #32323296 ;
+        padding: 12px;
+        border-radius: 6px;
+        
+    }
+img{
+    width: 100%;
+    margin-bottom: 12px;
+}
+    h2{
+    font-family: "Glory",tahoma, sans-serif ;
+    font-size: 22px;
+    font-weight:700px ;
+    color:#323232;
+     margin-bottom: 12px;
+}
+.pragraph{
+    font-family:"Glory",tahoma, sans-serif ;
+    font-size: 20px;
+    font-weight:700px ;
+    color: #32323296; 
+    margin-bottom: 12px;
+}
+.price{
+font-family: 'Glory',tahoma, sans-serif;
+font-weight: 700px;
+font-style: bold;
+font-size: 22px; 
+color: #28A745;
+margin-bottom: 12px;
+}
+span{ 
+    color: #DC3545;
+    text-decoration: line-through;          
+    font-family:'Glory', sans-serif;
+    font-weight: 700px;
+    font-style: bold;
+    font-size: 18px;
+}
+.putton .add-to-cart{
+  border-bottom-left-radius:6px ;
+  background-color: #007BFF;
+  border: none;
+  color: #FFFFFF;
+  font-family:'Glory', sans-serif;
+  font-weight: 700px;
+  font-size: 20px;
+ padding: 10px 50px;
+}
+.putton .icon{
+     border-bottom-right-radius:6px;
+     background-color: #FFFFFF;
+     color: #007BFF;
+     border: 2px solid  #007BFF;
+     padding: 10px;
+    
+}
