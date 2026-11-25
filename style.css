@@ -9,8 +9,7 @@
     
 }
     .our-products{
-        padding: 0px 102px ;
-        gap: 12px;
+        padding: 0px 102px;
         margin: 12px;
         display: flex;
         justify-content: center;
@@ -22,7 +21,8 @@
         border: solid 1px #32323296 ;
         padding: 12px;
         border-radius: 6px;
-        
+    position: relative;
+    overflow: hidden;
     }
 img{
     width: 100%;
@@ -76,3 +76,19 @@ span{
      padding: 10px;
     
 }
+.sale{
+    position: absolute;
+    top: 15px;
+    left: -32px;
+    width: 120px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none; 
+    transform: rotate(-45deg);
+}
+
+
